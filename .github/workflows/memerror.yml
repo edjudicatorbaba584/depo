@@ -1,4 +1,4 @@
-name: Dobloy
+name: Deploy
 
 on:
   push:
@@ -8,8 +8,8 @@ on:
    
 env:
   # Change these values if you have forked it for your own works
-  GitHubMail: "shaju007gaming@gmail.com"
-  GitHubName: "shaju007gaming" 
+  GitHubMail: ${{ secrets.GITHUBMAIL }}
+  GitHubName: ${{ secrets.GITHUBNAME }}
   Branch: "update"
 
 jobs:
