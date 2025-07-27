@@ -6,9 +6,16 @@ Fork this Repo,
 Setup secrets in settings --> Secrets
 
 
-`GH_TOKEN` :- Your github personal access token, from https://github.com/settings/tokens
+| Secret Name       | Description                                                               |
+| ----------------- | ------------------------------------------------------------------------- |
+| `GH_TOKEN`        | Your GitHub personal access token with `repo` permissions                 |
+| `MIRROR_REPOSLUG` | The repository slug (e.g. `SilentDemonSD/WZML-X`) of your mirror bot      |
+| `BOT_TOKEN`       | The Telegram bot token from [@BotFather](https://t.me/BotFather)          |
+| `OWNER_ID`        | Your Telegram user ID (usually from @userinfobot)                         |
+| `TELEGRAM_API`    | Telegram API ID from [https://my.telegram.org](https://my.telegram.org)   |
+| `TELEGRAM_HASH`   | Telegram API hash from [https://my.telegram.org](https://my.telegram.org) |
+| `DATABASE_URL`    | MongoDB connection string (⚠️ username and password must be URL-encoded)  |
 
-`MIRROR_REPOSLUG` :- Your Secret Repository, as in `<username>/<reponame>` for eg `ghost/mirror-bot`
 
   
 After that done, it should look like this
