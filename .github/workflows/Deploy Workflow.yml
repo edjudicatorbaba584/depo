@@ -8,8 +8,8 @@ on:
   workflow_dispatch:
 
 env:
-  GitHubMail: "a181016b@gmail.com"
-  GitHubName: "a181016b"
+  GitHubMail: "@gmail.com"
+  GitHubName: ""
   Branch: "wzv3"
 
 jobs:
